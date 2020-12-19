@@ -5,6 +5,8 @@ public class Main {
     public static void main(String[] args) {
 //        IfElse.init();
 //        While.init();
-        ForLoop.init();
+//        ForLoop.init();
+//        MultiplicationTableExample.init();
+        BreakAndContinue.init();
     }
 }

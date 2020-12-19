@@ -4,20 +4,23 @@ public class ForLoop {
 
     public static void init() {
 //        runForLoop();
-        runWhileLoop();
-//        runInfiniteLoop();
+//        runWhileLoop();
+//        runForInfiniteLoop();
+        runWhileInfiniteLoop();
     }
 
-    private static void runInfiniteLoop() {
-
-        for(;;) {
-
-        }
+    private static void runWhileInfiniteLoop() {
 
         while (true) {
 
         }
+    }
 
+    private static void runForInfiniteLoop() {
+
+        for(;;) {
+
+        }
     }
 
     private static void runWhileLoop() {
