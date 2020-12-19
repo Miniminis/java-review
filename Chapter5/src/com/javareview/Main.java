@@ -3,10 +3,35 @@ package com.javareview;
 public class Main {
 
     public static void main(String[] args) {
-        runStudentExample();
+//        runStudentExample();
 //        runCalculator();
 //        runStudentInstanceExample();
 //        runPersonalInfo();
+        runPersonExample();
+    }
+
+    private static void runPersonExample() {
+        /*정보은닉*/
+        /*public
+        * 문제점: 유효하지 않은 값이 들어왔을때, 처리가 어려움.
+        * */
+//        Date today = new Date();
+//        today.year = 1993;
+//        today.month = 1234;
+//        today.day = 19;
+
+//        today.showDate();
+
+        /*private
+        * 1. getter 만 허용하여 readOnly 데이터로 만들 수 있음
+        * 2. 유효하지 않은 값에 대하여 처리할 수 있음
+        * */
+        Date today = new Date();
+        today.setYear(1993);
+        today.setMonth(1222);
+        today.setDay(19);
+
+        today.showDate();
     }
 
     private static void runPersonalInfo() {
