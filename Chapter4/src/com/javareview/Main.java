@@ -7,6 +7,7 @@ public class Main {
 //        While.init();
 //        ForLoop.init();
 //        MultiplicationTableExample.init();
-        BreakAndContinue.init();
+//        BreakAndContinue.init();
+        Practice.init();
     }
 }
