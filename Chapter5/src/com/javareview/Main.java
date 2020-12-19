@@ -7,7 +7,36 @@ public class Main {
 //        runCalculator();
 //        runStudentInstanceExample();
 //        runPersonalInfo();
-        runPersonExample();
+//        runPersonExample();
+        runGoToCompanyExample();
+    }
+
+    private static void runGoToCompanyExample() {
+        /*
+        * employee 들의 출근길
+        * - 버스
+        * - 지하철
+        * */
+        Employee kim = new Employee("kim", 10000);
+        Employee son = new Employee("son", 9000);
+
+        Bus bus123 = new Bus(123);
+        Bus bus140 = new Bus(140);
+
+        Subway line2 = new Subway(2);
+        Subway line4 = new Subway(4);
+
+        kim.takeBus(bus140);
+        son.takeSubway(line4);
+
+        kim.showEmployeeInfo();
+        son.showEmployeeInfo();
+
+        bus123.showBusInfo();
+        bus140.showBusInfo();
+
+        line2.showSubwayInfo();
+        line4.showSubwayInfo();
     }
 
     private static void runPersonExample() {
@@ -28,7 +57,7 @@ public class Main {
         * */
         Date today = new Date();
         today.setYear(1993);
-        today.setMonth(1222);
+        today.setMonth(12);
         today.setDay(19);
 
         today.showDate();
