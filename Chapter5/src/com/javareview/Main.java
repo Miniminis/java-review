@@ -10,7 +10,22 @@ public class Main {
 //        runPersonExample();
 //        runGoToCompanyExample();
 //        runStaticExample();
-        runSingletonExample();
+//        runSingletonExample();
+
+        runCardPractice();
+    }
+
+    private static void runCardPractice() {
+        CardCompany company = CardCompany.getInstance();
+        System.out.println(Card.getSerialNum());
+
+        Card myCard = company.createCard();
+        System.out.println(myCard.getCardNumber());
+        System.out.println(Card.getSerialNum());
+
+        Card yourCard= company.createCard();
+        System.out.println(yourCard.getCardNumber());
+        System.out.println(Card.getSerialNum());
     }
 
     private static void runSingletonExample() {
