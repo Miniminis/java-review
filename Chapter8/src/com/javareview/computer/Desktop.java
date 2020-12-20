@@ -1,4 +1,4 @@
-package com.javareview;
+package com.javareview.computer;
 
 public class Desktop extends Computer {
 

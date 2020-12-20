@@ -1,22 +1,11 @@
 package com.javareview;
 
+import com.javareview.computer.ComputerTest;
+
 public class Main {
 
     public static void main(String[] args) {
-        runComputerExample();
+        ComputerTest.run();
+//        PlayerTest.run();
     }
-
-    private static void runComputerExample() {
-//        Computer computer = new Computer();
-//        Computer computer = new NoteBook();
-        Computer desktop = new Desktop();
-        desktop.turnOn();
-        desktop.display();
-
-        Computer computer = new MyLaptop();
-        computer.turnOn();
-        computer.display();
-    }
-
-
 }
