@@ -8,7 +8,37 @@ public class Main {
 //        runStudentInstanceExample();
 //        runPersonalInfo();
 //        runPersonExample();
-        runGoToCompanyExample();
+//        runGoToCompanyExample();
+        runStaticExample();
+    }
+
+    private static void runStaticExample() {
+
+        System.out.println(Student2.getSerialNum());
+
+        Student2 jenny = new Student2("Jenny");
+        jenny.showStudentInfo();
+
+        Student2 tom = new Student2("Tom");
+        tom.showStudentInfo();
+
+        jenny.showStudentInfo();
+
+        /*
+        1000
+
+        시리얼넘버 : 1001
+        학번 : 1001
+        이름 : Jenny
+
+        시리얼넘버 : 1002
+        학번 : 1002
+        이름 : Tom
+
+        시리얼넘버 : 1002
+        학번 : 1001
+        이름 : Jenny
+        * */
     }
 
     private static void runGoToCompanyExample() {
