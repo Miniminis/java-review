@@ -13,7 +13,6 @@ public class PlayerTest {
         AdvancedLevel advancedLevel = new AdvancedLevel();
         player1.levelUp(advancedLevel);
         player1.play(3);
-
     }
 }
 
