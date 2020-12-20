@@ -6,7 +6,12 @@ public class Main {
 //        runArrayTest();
 //        runBookTest();
 //        runArrayCopyTest();
-        runRefArrayCopyTest();
+//        runRefArrayCopyTest();
+        runTwoDimentionTest();
+    }
+
+    private static void runTwoDimentionTest() {
+        TwoDimention.runTest();
     }
 
     private static void runRefArrayCopyTest() {
