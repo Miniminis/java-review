@@ -1,5 +1,7 @@
 package com.javareview;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -7,7 +9,54 @@ public class Main {
 //        runBookTest();
 //        runArrayCopyTest();
 //        runRefArrayCopyTest();
-        runTwoDimentionTest();
+//        runTwoDimentionTest();
+//        runArrayListTest();
+        runStudentSubjectTest();
+    }
+
+    private static void runStudentSubjectTest() {
+        Student james = new Student(1001, "James");
+        james.addSubject("Korean", 20);
+        james.addSubject("English", 50);
+
+        Student kelly = new Student(1002, "Kelly");
+        kelly.addSubject("Korean", 100);
+        kelly.addSubject("Math", 100);
+
+        james.showStudentInfo();
+        kelly.showStudentInfo();
+    }
+
+    private static void runArrayListTest() {
+        ArrayList<String> strs = new ArrayList<String>();
+
+        System.out.println(strs.size());
+        System.out.println(strs.isEmpty());
+
+        strs.add("hello");
+        strs.add("java");
+        strs.add("python");
+        strs.add("go");
+
+        System.out.println(strs.size());
+        System.out.println(strs.isEmpty());
+
+        for (String str : strs) {
+            System.out.print(str+", ");
+        }
+
+        System.out.println();
+
+        for (int i=0; i<strs.size(); i++) {
+            System.out.print(strs.get(i)+", ");
+        }
+
+        System.out.println(strs.remove(1));
+
+        for (String str : strs) {
+            System.out.print(str+", ");
+        }
+
     }
 
     private static void runTwoDimentionTest() {
