@@ -9,7 +9,25 @@ public class Main {
 //        runPersonalInfo();
 //        runPersonExample();
 //        runGoToCompanyExample();
-        runStaticExample();
+//        runStaticExample();
+        runSingletonExample();
+    }
+
+    private static void runSingletonExample() {
+//        Company company = new Company();    //singleton 에 의해서 instance 생성 안됨.
+        Company company1 = Company.getInstance();
+        Company company2 = Company.getInstance();
+        Company company3 = Company.getInstance();
+
+        System.out.println(company1);
+        System.out.println(company2);
+        System.out.println(company3);
+
+        /*
+        com.javareview.Company@74a14482
+        com.javareview.Company@74a14482
+        com.javareview.Company@74a14482
+        * */
     }
 
     private static void runStaticExample() {
