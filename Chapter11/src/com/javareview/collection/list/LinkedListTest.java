@@ -1,4 +1,4 @@
-package com.javareview.collection;
+package com.javareview.collection.list;
 
 import java.util.LinkedList;
 
