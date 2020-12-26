@@ -20,6 +20,10 @@ public class InnerTest {
 
         System.out.println(inStaticClass.inNum);
         inStaticClass.inTest();
+
+        System.out.println("===");
+        inStaticClass.sTest();
+        System.out.println(inStaticClass.sInNum);
     }
 }
 
