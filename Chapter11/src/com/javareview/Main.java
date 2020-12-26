@@ -1,8 +1,7 @@
 package com.javareview;
 
-import com.javareview.collection.treeset.TreeSetTest;
-import com.javareview.collection.treeset.TreeSetTest2;
-import com.javareview.collection.treeset.TreeSetTest3;
+import com.javareview.map.hashmap.HashMapTest;
+import com.javareview.map.treemap.TreeMapTest;
 
 public class Main {
 
@@ -15,6 +14,8 @@ public class Main {
 //        HashSetTest2.run();
 //        TreeSetTest.run();
 //        TreeSetTest2.run();
-        TreeSetTest3.run();
+//        TreeSetTest3.run();
+//        HashMapTest.run();
+        TreeMapTest.run();
     }
 }
