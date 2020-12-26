@@ -1,6 +1,7 @@
 package com.javareview;
 
 import com.javareview.lamdaex.LamdaTest;
+import com.javareview.lamdaex.LamdaTest2;
 
 public class Main {
 
@@ -9,6 +10,7 @@ public class Main {
 //        LocalInnerClassTest.run();
 //        AnonymousInnerClassTest.run();
 //        LamdaTest.run();
-        LamdaTest.run2();
+//        LamdaTest.run2();
+        LamdaTest2.run();
     }
 }
