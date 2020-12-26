@@ -2,10 +2,7 @@ package com.javareview;
 
 import com.javareview.lamdaex.LamdaTest;
 import com.javareview.lamdaex.LamdaTest2;
-import com.javareview.stream.StreamTest;
-import com.javareview.stream.StreamTest2;
-import com.javareview.stream.StreamTest3;
-import com.javareview.stream.StreamTest4;
+import com.javareview.stream.*;
 
 public class Main {
 
@@ -19,6 +16,7 @@ public class Main {
 //        StreamTest.run();
 //        StreamTest2.run();
 //        StreamTest3.run();
-        StreamTest4.run();
+//        StreamTest4.run();
+        StreamPractice.run();
     }
 }
