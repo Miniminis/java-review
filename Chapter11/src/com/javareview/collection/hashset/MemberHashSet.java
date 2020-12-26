@@ -1,4 +1,4 @@
-package com.javareview.collection.set;
+package com.javareview.collection.hashset;
 
 import java.util.HashSet;
 import java.util.Iterator;

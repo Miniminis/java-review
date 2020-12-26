@@ -1,6 +1,9 @@
-package com.javareview.collection.set;
+package com.javareview.collection.treeset;
 
-public class Member {
+import java.util.Comparator;
+
+public class Member implements Comparator<Member> {
+        //Comparable<Member>
 
     private int memberId;
     private String memberName;
@@ -50,4 +53,15 @@ public class Member {
         }
         return false;
     }
+
+//    @Override
+//    public int compareTo(Member member) {
+//        return (this.memberId - member.getMemberId()) * (-1);
+//    }
+
+    @Override
+    public int compare(Member member1, Member member2) {
+        return member1.getMemberName().compareTo(member2.getMemberName());
+    }
+
 }

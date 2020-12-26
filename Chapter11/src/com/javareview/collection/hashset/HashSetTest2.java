@@ -1,4 +1,4 @@
-package com.javareview.collection.set;
+package com.javareview.collection.hashset;
 
 public class HashSetTest2 {
 
