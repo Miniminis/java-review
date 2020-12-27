@@ -3,6 +3,8 @@ package com.javareview;
 import com.javareview.decorator.DataStreamTest;
 import com.javareview.decorator.SupportStreamTest;
 import com.javareview.decorator.SupportStreamTest2;
+import com.javareview.decoratorpattern.DecoratorPatternTest;
+import com.javareview.others.RandomAccessFileTest;
 import com.javareview.serializer.SerializerTest;
 
 import java.io.IOException;
@@ -26,6 +28,9 @@ public class Main {
 //        SupportStreamTest.run();
 //        SupportStreamTest2.run();
 //        DataStreamTest.run();
-        SerializerTest.run();
+//        SerializerTest.run();
+//        RandomAccessFileTest.run();
+        DecoratorPatternTest.run();
+
     }
 }
