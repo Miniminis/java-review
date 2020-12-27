@@ -1,7 +1,5 @@
 package com.javareview;
 
-import com.sun.xml.internal.ws.wsdl.writer.document.Part;
-
 public class SyncTest {
 
     public static Bank nonHyup = new Bank();
@@ -15,7 +13,6 @@ public class SyncTest {
 
         ParkWife parkWife = new ParkWife();
         parkWife.start();
-
     }
 }
 

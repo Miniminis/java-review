@@ -11,6 +11,7 @@ public class Main {
 //        JoinTest.main();
 //        InterruptTest.main();
 //        ThreadEndTest.main();
-        SyncTest.main();
+//        SyncTest.main();
+        Library.main();
     }
 }
