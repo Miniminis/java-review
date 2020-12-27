@@ -1,13 +1,15 @@
 package com.javareview;
 
-import com.javareview.inputstream.FileInputStreamTest4;
-import com.javareview.outputstream.FileOutputStreamTest1;
-import com.javareview.outputstream.FileOutputStreamTest2;
-import com.javareview.outputstream.FileOutputStreamTest3;
+import com.javareview.decorator.DataStreamTest;
+import com.javareview.decorator.SupportStreamTest;
+import com.javareview.decorator.SupportStreamTest2;
+import com.javareview.serializer.SerializerTest;
+
+import java.io.IOException;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 //        SystemInTest.run();
 //        SystemInTest2.run();
 //        SystemInTest3.run();
@@ -18,6 +20,12 @@ public class Main {
 //        FileInputStreamTest4.run();
 //        FileOutputStreamTest1.run();
 //        FileOutputStreamTest2.run();
-        FileOutputStreamTest3.run();
+//        FileOutputStreamTest3.run();
+//        FileReaderTest.run();
+//        FileWriterTest.run();
+//        SupportStreamTest.run();
+//        SupportStreamTest2.run();
+//        DataStreamTest.run();
+        SerializerTest.run();
     }
 }
